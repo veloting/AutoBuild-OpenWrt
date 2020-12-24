@@ -9,6 +9,9 @@
 name: Sync Code from eSir Autobuild Script
 
 on:
+  release:
+    types: [published]
+
 #  push:
 #    branches: 
 #      - master
